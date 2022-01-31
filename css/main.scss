@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.bg {
+    background-image: url(../images/bg.jpg); 
+    height: 100vh;
+    width: 100%;
+}
+
+// .bg {
+//     background-image: url(../images/bg.jpg);
+// }
+
+// .bg {
+//     background-image: url(../images/bg.jpg);
+// }
+
+
+body{
+    // font-weight: 400;
+    overflow-x: hidden; // sayfanın altında çıkan yataya kaydırma çubuğunu gizler.
+
+    .page1 {
+        opacity: 0.7;
+        background-position: center;
+        background-size: cover;  //tam sayfayı kaplar bunu yapmassak resim tam olarak görünmez bir parçasıı görünür zoomlatılmış olarak.
+        background-attachment: fixed; // parallax yapmamızı sağlayan en önemli kod. resimi sabit tutar            
+        min-height: 100vh; // browser tam sayfasını kaplasın diyeverilir.
+        
+        // display: flex;
+        // text-decoration: none solid rgb(102,102,102);
+        // height: 615px;
+        // width: 1340px;
+        // background-color: #FFFFFF;
+        // color: #666666;
+        // position: relative;
+        // background-repeat: no-repeat;
+        
+
+            .title{
+                position: absolute;
+                text-align: center;
+                width: 100%; // yazının ortaya gelmesi için bir width vermemiz gerekir.
+                top: 45.5vh;                
+                font-size: 3rem;
+
+                span {
+
+                    letter-spacing:8px;
+                    border-bottom-right-radius: 2rem;
+                    border-top-left-radius: 2rem;
+                    outline:0.5rem inset purple;  //kenarlığın kalınlığı ve rengini belirledim.
+                    outline-offset: 1rem; //kutu ile kenarlık arasına boşluk bıraktım.
+                    background-color: #000000;
+                    color: #FFFFFF;
+                    padding: 2rem;
+
+                    // display: inline;
+                    // line-height: 2.5rem;
+                    
+                    }
+            }
+    }
+}
+
+.sec{
+    text-align: center;
+    padding: 3rem 5rem;
+    line-height: 1.8rem;
+    // opacity: 0.8;
+    color: #666666;
+    background-color: #f1f1f1;
+    
+    
+
+    h2{
+        width: 1189px;
+        margin: 20px 0 20px 0;
+        font-weight: 600;
+    }
+
+    p {
+        text-align: center;
+    }
+
+
+}
