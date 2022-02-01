@@ -6,10 +6,6 @@
   font-family: 'Lato', sans-serif;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 body .page1 {
   opacity: 0.7;
   background-position: center;
@@ -65,7 +61,16 @@ body .page2 {
 }
 
 body .page2 .title2 {
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body .page2 img {
@@ -105,15 +110,144 @@ body .page3 {
 }
 
 body .page3 .title3 {
-  text-align: center;
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  top: 45.5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .page3 span {
+  letter-spacing: 8px;
+  border-bottom-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  outline: 0.4rem inset purple;
+  outline-offset: 0.2rem;
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 11px 11px 11px 11px;
   font-size: 3rem;
 }
 
-body .page3 .title3 span {
+body .bg3 {
+  background-image: url(../images/bg3.jpg);
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+
+body .sec3 {
+  padding: 3rem 5rem;
+  line-height: 1.8rem;
+  color: #666666;
+  background-color: #f1f1f1;
+}
+
+body .sec3 h2 {
+  margin: 20px 0 20px 0;
+  font-weight: 600;
+  text-align: center;
+}
+
+body .sec3 p {
+  margin: 16px 0px;
+  text-align: center;
+}
+
+body .page4 {
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body .page4 .title4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 80vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .page4 span {
+  letter-spacing: 8px;
+  border-bottom-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  outline: 0.4rem inset purple;
+  outline-offset: 0.2rem;
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 11px;
+  font-size: 3rem;
+}
+
+body .bg4 {
+  background-image: url(../images/bg4.jpg);
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+
+body .sec4 {
+  padding: 3rem 5rem;
+  line-height: 1.8rem;
+  color: #DDDDDD;
+  background-color: #282E34;
+}
+
+body .sec4 h2 {
+  margin: 20px 0 20px 0;
+  font-weight: 600;
+  text-align: center;
+}
+
+body .sec4 p {
+  margin: 16px 0px;
+  text-align: center;
+}
+
+body .page5 {
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body .page5 p {
+  border: 2px solid red;
+  padding: 20px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100px;
+  line-height: 100px;
+}
+
+body .page5 .title5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .page5 .title5 span {
   letter-spacing: 8px;
   border-bottom-right-radius: 2rem;
   border-top-left-radius: 2rem;
@@ -122,11 +256,12 @@ body .page3 .title3 span {
   background-color: #000000;
   color: #FFFFFF;
   padding: 2rem;
+  font-size: 3rem;
 }
 
-body .bg3 {
-  background-image: url(../images/bg3.jpg);
-  height: 500px;
+body .bg5 {
+  background-image: url(../images/bg1.jpg);
+  height: 100vh;
   width: 100%;
   position: relative;
 }

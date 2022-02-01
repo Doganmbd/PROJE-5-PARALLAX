@@ -5,34 +5,18 @@
     font-family: 'Lato', sans-serif;
 }
 
-
-
-
-
-
-
-// .bg {
-//     background-image: url(../images/bg.jpg);
-// }
-
-
 body{
     // font-weight: 400;
-    overflow-x: hidden; // sayfanın altında çıkan yataya kaydırma çubuğunu gizler.
+    // overflow-x: hidden; // sayfanın altında çıkan yataya kaydırma çubuğunu gizler.
 
     .page1 {
         opacity: 0.7;
         background-position: center;
         background-size: cover;  //tam sayfayı kaplar bunu yapmassak resim tam olarak görünmez bir parçasıı görünür zoomlatılmış olarak.
         background-attachment: fixed; // parallax yapmamızı sağlayan en önemli kod. resimi sabit tutar            
-        min-height: 100vh; // browser tam sayfasını kaplasın diyeverilir.
+        min-height: 100vh; // browser tam sayfasını kaplasın diye verdim.
         
-        // display: flex;
-        // text-decoration: none solid rgb(102,102,102);
-        // height: 615px;
-        // width: 1340px;
-        // background-color: #FFFFFF;
-        // color: #666666;
+        // display: flex;        
         // position: relative;
         // background-repeat: no-repeat;
         
@@ -91,14 +75,18 @@ body{
     opacity: 0.7;
     background-position: center;
     background-size: cover;  //tam sayfayı kaplar bunu yapmassak resim tam olarak görünmez bir parçasıı görünür zoomlatılmış olarak.
-    background-attachment: fixed; // parallax yapmamızı sağlayan en önemli kod. resimi sabit tutar            
-    // min-height: 100vh; // browser tam sayfasını kaplasın diyeverilir.
+    background-attachment: fixed; // parallax yapmamızı sağlayan en önemli kod. resmi sabit tutar            
+    // min-height: 100vh; // browser tam sayfasını kaplasın diye verilir.
     
 
     .title2{
-        text-align: center;
-        
-
+        // display: inline-block;
+        // text-align: center;
+        // margin: auto;
+        display: flex;
+        justify-content: center;
+        height: 80vh;
+        align-items: center;
     }
     
     img{
@@ -147,34 +135,45 @@ body{
     background-size: cover;  //tam sayfayı kaplar bunu yapmassak resim tam olarak görünmez bir parçasıı görünür zoomlatılmış olarak.
     background-attachment: fixed; // parallax yapmamızı sağlayan en önemli kod. resimi sabit tutar            
     // min-height: 100vh; // browser tam sayfasını kaplasın diyeverilir.
+    // text-align: center;
     
 
     .title3{
-        text-align: center;
-        position: absolute;
-        text-align: center;
-        width: 100%; // yazının ortaya gelmesi için bir width vermemiz gerekir.
-        top: 45.5vh;                
-        font-size: 3rem;
+    //     text-align: center;
+    //     position: absolute;
+    
+    //     width: 100%; // yazının ortaya gelmesi için bir width vermemiz gerekir.
+    //     top: 45.5vh;                
+    //     font-size: 3rem;
+
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;}
 
 
         span {
 
             letter-spacing:8px;
-            border-bottom-right-radius: 2rem;
-            border-top-left-radius: 2rem;
-            outline:0.5rem inset purple;  //kenarlığın kalınlığı ve rengini belirledim.
-            outline-offset: 1rem; //kutu ile kenarlık arasına boşluk bıraktım.
+            border-bottom-right-radius: 1rem;
+            border-top-left-radius: 1rem;
+            outline:0.4rem inset purple;  //kenarlığın kalınlığı ve rengini belirledim.
+            outline-offset: 0.2rem; //kutu ile kenarlık arasına boşluk bıraktım.
             background-color: #000000;
             color: #FFFFFF;
-            padding: 2rem;
-    
+            padding: 11px 11px 11px 11px;
+            font-size: 3rem;
+            // width: 60%; // yazının ortaya gelmesi için bir width vermemiz gerekir.
+            // text-align: center;
+            // position: absolute;
+            // top: 30vh;                
+            
     
     
             }
         }
 
-    }
+    // }
 
 .bg3 {
     background-image: url(../images/bg3.jpg);
@@ -184,5 +183,182 @@ body{
     position: relative;  // bu şekilde üst üste geçmiş olan title yazılarını kendi sayflarının üzerine aldım.
     }
 
+    
+    .sec3{
+        // text-align: center;
+        padding: 3rem 5rem;
+        line-height: 1.8rem;
+        // opacity: 0.8;
+        color: #666666;
+        background-color: #f1f1f1;
+        
+        
+    
+        h2{
+            margin: 20px 0 20px 0;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        p{
+            margin: 16px 0px;
+            text-align: center;
+        }
+    
+    }
+
+
+
+
+
+    .page4 {
+        opacity: 0.7;
+        background-position: center;
+        background-size: cover;  //tam sayfayı kaplar bunu yapmassak resim tam olarak görünmez bir parçasıı görünür zoomlatılmış olarak.
+        background-attachment: fixed; // parallax yapmamızı sağlayan en önemli kod. resimi sabit tutar            
+        // min-height: 100vh; // browser tam sayfasını kaplasın diyeverilir.
+        // text-align: center;
+        
+    
+        // .title3{
+        //     text-align: center;
+        //     position: absolute;
+        
+        //     width: 100%; // yazının ortaya gelmesi için bir width vermemiz gerekir.
+        //     top: 45.5vh;                
+        //     font-size: 3rem;
+            
+
+            .title4 {
+                display: flex;
+                justify-content: center;
+                height: 80vh;
+                align-items: center;
+            }
+    
+            span {
+    
+                letter-spacing:8px;
+                border-bottom-right-radius: 1rem;
+                border-top-left-radius: 1rem;
+                outline:0.4rem inset purple;  //kenarlığın kalınlığı ve rengini belirledim.
+                outline-offset: 0.2rem; //kutu ile kenarlık arasına boşluk bıraktım.
+                background-color: #000000;
+                color: #FFFFFF;
+                padding: 11px;
+                font-size: 3rem;
+                // line-height: 80px;
+                // width: 60%; // yazının ortaya gelmesi için bir width vermemiz gerekir.
+                // text-align: center;
+                // position: absolute;
+                // top: 30vh;                
+                
+        
+        
+                }
+            }
+    
+        
+    
+    .bg4 {
+        background-image: url(../images/bg4.jpg);
+        // position: relative;
+        height: 500px;
+        width: 100%;
+        position: relative;  // bu şekilde üst üste geçmiş olan title yazılarını kendi sayflarının üzerine aldım.
+        }
+
+
+
+        .sec4{
+            // text-align: center;
+            padding: 3rem 5rem;
+            line-height: 1.8rem;
+            // opacity: 0.8;
+            color: #DDDDDD;
+            background-color: #282E34;
+            
+            
+        
+            h2{
+                margin: 20px 0 20px 0;
+                font-weight: 600;
+                text-align: center;
+            }
+    
+            p{
+                margin: 16px 0px;
+                text-align: center;
+            }
+        
+        }
+    
+
+        .page5 {
+            opacity: 0.7;
+            background-position: center;
+            background-size: cover;  //tam sayfayı kaplar bunu yapmassak resim tam olarak görünmez bir parçasıı görünür zoomlatılmış olarak.
+            background-attachment: fixed; // parallax yapmamızı sağlayan en önemli kod. resimi sabit tutar            
+            // min-height: 100vh; // browser tam sayfasını kaplasın diyeverilir.
+            // text-align: center;
+            
+        
+            // .title3{
+            //     text-align: center;
+            //     position: absolute;
+            
+            //     width: 100%; // yazının ortaya gelmesi için bir width vermemiz gerekir.
+            //     top: 45.5vh;                
+            //     font-size: 3rem;
+
+            p {
+                border: 2px solid red;
+                padding: 20px;
+                text-align: center;
+                justify-content: center;
+                height: 100px ;
+                line-height: 100px ;
+            }
+            
+        
+        
+                .title5 {
+
+                    display: flex;
+                    justify-content: center;
+                    height: 100vh;
+                    align-items: center;
+                    
+
+                    span {
+                        letter-spacing:8px;
+                        border-bottom-right-radius: 2rem;
+                        border-top-left-radius: 2rem;
+                        outline:0.5rem inset purple;  //kenarlığın kalınlığı ve rengini belirledim.
+                        outline-offset: 1rem; //kutu ile kenarlık arasına boşluk bıraktım.
+                        background-color: #000000;
+                        color: #FFFFFF;
+                        padding: 2rem;
+                        font-size: 3rem;
+                        
+                    
+                    }
+            
+                    }
+                }
+        
+            
+        
+        .bg5 {
+            background-image: url(../images/bg1.jpg);
+            // position: relative;
+            height: 100vh;
+            width: 100%;
+            position: relative;  // bu şekilde üst üste geçmiş olan title yazılarını kendi sayflarının üzerine aldım.
+
+
+
+            }
+    
     
 }
